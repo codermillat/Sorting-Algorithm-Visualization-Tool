@@ -22,4 +22,4 @@ Welcome to the Sorting Algorithm Visualization Tool! This project provides an in
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/codermillat/SortingAlgorithmVisualizationTool.git
+   git clone https://github.com/codermillat/Sorting-Algorithm-Visualization-Tool.git
