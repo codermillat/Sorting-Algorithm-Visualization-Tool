@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithm Visualization</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="sorting-buttons">
+                <button class="sorting-button" id="insertionSort-btn">Insertion Sort</button>
+                <button class="sorting-button" id="selectionSort-btn">Selection Sort</button>
+                <button class="sorting-button" id="bubbleSort-btn">Bubble Sort</button>
+                <button class="sorting-button" id="mergeSort-btn">Merge Sort</button>
+                <button class="sorting-button" id="quickSort-btn">Quick Sort</button>
+                <button class="sorting-button" id="heapSort-btn">Heap Sort</button>
+            </div>
+
+            <div>
+                <input type="number" id="array-size" placeholder="Array Size">
+                <button class="generate-btn" id="generate-btn">Generate Array</button>
+            </div>
+        </div>
+
+        <div class="visualization">
+            <div class="bars-container"></div>
+            
+            <div class="details">
+                <div class="details-title">Algorithm Details</div>
+
+                <div class="details-content">
+                    <div>
+                        <span class="details-label">Algorithm:</span>
+                        <span id="algorithm-name"></span>
+                    </div>
+
+                    <div>
+                        <span class="details-label">Time Complexity:</span>
+                        <span id="time-complexity"></span>
+                    </div>
+
+                    <div>
+                        <div>
+                            <span class="details-label">Space Complexity:</span>
+                            <span id="space-complexity"></span>
+                        </div>
+                    </div>
+
+                    <div class="details-title">Code Snippets</div>
+
+                    <div class="code-container">
+                        <span class="code-language">C:</span>
+                        <pre id="c-code"></pre>
+                    </div>
+
+                    <div class="code-container">
+                        <span class="code-language">C++:</span>
+                        <pre id="cpp-code"></pre>
+
+                    </div>
+
+                    <div class="code-container">
+                        <span class="code-language">Python:</span>
+                        <pre id="python-code"></pre>
+                    </div>
+
+                    <div class="code-container">
+                        <span class="code-language">Java:</span>
+                        <pre id="java-code"></pre>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="algorithm-description">
+            <h2 id="algorithm-description-title">Algorithm Description</h2>
+            <p id="algorithm-description-content">
+                This is the default algorithm description.
+            </p>
+        </div>
+        
+        <!-- Add descriptions for each algorithm, initially hidden -->
+        <div id="insertionSort-description" class="algorithm-description hidden">
+            <h2>Insertion Sort Description</h2>
+            <p>
+                Insertion Sort is a simple sorting algorithm that works similarly to how you sort playing cards in your hands.
+            </p>
+        </div>
+        <div id="selectionSort-description" class="algorithm-description hidden">
+            <h2>selectionSort Description</h2>
+            <p>
+                Insertion Sort is a simple sorting algorithm that works similarly to how you sort playing cards in your hands.
+            </p>
+        </div>
+        <div id="bubbleSort-description" class="algorithm-description hidden">
+            <h2>bubbleSort Description</h2>
+            <p>
+                Insertion Sort is a simple sorting algorithm that works similarly to how you sort playing cards in your hands.
+            </p>
+        </div>
+        <div id="mergeSort-description" class="algorithm-description hidden">
+            <h2>mergeSort Description</h2>
+            <p>
+                Insertion Sort is a simple sorting algorithm that works similarly to how you sort playing cards in your hands.
+            </p>
+        </div>
+        <div id="quickSort-description" class="algorithm-description hidden">
+            <h2>quickSort Description</h2>
+            <p>
+                Insertion Sort is a simple sorting algorithm that works similarly to how you sort playing cards in your hands.
+            </p>
+        </div>
+        <div id="heapSort-description" class="algorithm-description hidden">
+            <h2>heapSort Description</h2>
+            <p>
+                Insertion Sort is a simple sorting algorithm that works similarly to how you sort playing cards in your hands.
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
